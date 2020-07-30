@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.mynav{
+	background: #ffffff !important;
+}
+
+.logo_modify{
+	margin-left: 70px;
+	font-size: 2rem;
+}
+
+.modify a{
+	margin-right: 10px;
+}
+
+.modify a:hover{
+	border-bottom: 2px solid #0091EA;
+	color: #0091EA !important;
+}
+
+.space_{
+	margin-top: 70px;
+	word-spacing: 1rem;
+	letter-spacing: 0.018rem;
+	font-family: Montserrat;
+}
