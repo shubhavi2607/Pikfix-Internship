@@ -58,26 +58,16 @@ html, body {
 	color: #263238;
 }
 
-.right_space{
-	margin-right: -5rem;
-}
-
-.card_modify p{
+.ct_1{
 	font-family: Montserrat;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 22px;
-	/* or 157% */
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
 	letter-spacing: -0.015em;
 
-	color: rgba(0, 0, 0, 0.8);
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #0091EA;
-    border-color: #0091EA;
+	color: #5F5F5F;
 }
 
 .card_radius{
@@ -88,10 +78,54 @@ html, body {
     box-shadow: 0 .125rem .25rem rgba(130, 202, 255)!important;
 }
 
+.form_radius{
+	border-radius: 0.5rem !important;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.btn {
+   font-family: Montserrat;
+   line-height: 1.7 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0091EA;
+    border-color: #0091EA;
+}
+
+.card img{
+width: 4rem;
+margin-left: 10px;
+}
+
+.text_1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	/* or 171% */
+	letter-spacing: -0.015em;
+}
+
+.text_2{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #263238;
+}
 
 .cont{
 	background: linear-gradient(313.27deg, #2F80ED 0.2%, #56CCF2 100%);
+	clip-path: polygon(0 30%, 50% 0, 100% 30%, 100% 100%, 0 100%);
 	margin-top: 120px;
+	padding-top: 300px;
 }
 
 .cont1{
@@ -154,7 +188,6 @@ html, body {
 
 	color: rgba(255, 255, 255, 0.8);
 }
-
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap*/
