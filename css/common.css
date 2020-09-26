@@ -23,6 +23,12 @@
     box-shadow: 0px 2px 4px rgba(86, 204, 242, 0.15), 0px 8px 16px rgba(86, 204, 242, 0.25) !important;
     flex-direction: column !important;
     align-items: initial !important;
+    min-height: 330px;
+}
+
+.card_about{
+    flex-direction: column !important;
+    box-shadow: none !important;
 }
 
 .card{
@@ -41,4 +47,8 @@
     color: rgba(0, 0, 0, 0.8);
     max-width: 175px;
     margin: auto;
+}
+
+body{
+    background: linear-gradient(0deg, #E9F0F7 0%, #FFFFFF 100%);
 }
