@@ -19,6 +19,12 @@
     align-items: center;
 }
 
+.card_areas_of_work{
+    box-shadow: 0px 2px 4px rgba(86, 204, 242, 0.15), 0px 8px 16px rgba(86, 204, 242, 0.25) !important;
+    flex-direction: column !important;
+    align-items: initial !important;
+}
+
 .card{
     box-shadow: 0px 0px 4px rgba(47, 128, 237, 0.3), 0px 0px 16px rgba(47, 128, 237, 0.6);
     flex-direction: initial;
